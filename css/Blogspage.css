@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+.blogs-pages {
+  padding: 70px;
+}
+
+.blog-wrap {
+  border: 1px solid #e7e7e7;
+  padding: 30px;
+}
+
+.blogpost h1 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.blogs-img {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.blogs-description {
+  margin-top: 20px;
+  line-height: 32px;
+  font-weight: normal;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: serif;
+}
+
+.Recent-post {
+  padding: 30px;
+  border: 1px solid #e7e7e7;
+}
+
+#recent-title {
+  margin-top: 20px;
+  line-height: 32px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.recent-list li {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 35px;
+  font-family: "Poppins", sans-serif;
+  list-style: decimal;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: black;
+}
+
+.recent-list a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+  .blogs-pages {
+    padding: 10px;
+  }
+
+  .blog-wrap {
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .blogpost h1 {
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+  }
+  .Recent-post {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #e7e7e7;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .blogs-pages {
+    padding: 10px;
+  }
+
+  .blogpost h1 {
+    font-size: 29px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+  }
+
+  .blog-wrap {
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .Recent-post {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #e7e7e7;
+  }
+}

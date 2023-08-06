@@ -1,0 +1,478 @@
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+  #nav-item-a {
+    position: relative;
+    left: 10px;
+  }
+
+  .whatsapp_float {
+    position: fixed;
+    bottom: 200px;
+    width: 100px;
+    height: 50px;
+    right: -30px;
+    background-color: #000022;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+
+    font-size: 30px;
+    box-shadow: 0px 0px 0px #999;
+    z-index: 100;
+    transition: 0.5s;
+    z-index: 11111;
+    text-decoration: none;
+  }
+
+  #nav-item-a:hover::after {
+    width: 10%;
+  }
+
+  /* Ads oofferss section */
+
+  #ads-caption {
+    border: 1px solid red;
+    position: relative;
+  }
+
+  #puneet-tags {
+    background-color: green;
+    position: relative;
+    left: 15%;
+  }
+
+  .adss-offers {
+    width: 80%;
+    height: 180px;
+    position: relative;
+    left: 5%;
+  }
+
+  .asdd-ooffers {
+    color: #000022;
+    font-size: 2.5rem;
+    line-height: 47px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+  }
+
+  #get-ooffers {
+    margin-left: 60px;
+  }
+
+  #item-about-photo img {
+    width: 100%;
+    margin-left: 0px;
+    position: relative;
+    top: 20px;
+    height: 450px;
+    left: 0px;
+  }
+
+  /* Slider Item =====> */
+
+  #slider_imgage {
+    background: linear-gradient(
+        rgba(000, 000, 000, 0.7),
+        rgba(000, 000, 000, 0.7)
+      ),
+      url(../Assets/Slider/Background_3.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+
+  #slider_imgage1 {
+    background: linear-gradient(
+        rgba(000, 000, 000, 0.8),
+        rgba(000, 000, 000, 0.8)
+      ),
+      url(../Assets/Slider/Untitled-1.jpg);
+    background-size: cover;
+    background-position: 80% 50%;
+  }
+
+  #slider_imgage2 {
+    background: linear-gradient(
+        rgba(000, 000, 000, 0.7),
+        rgba(000, 000, 000, 0.7)
+      ),
+      url(../Assets/Slider/bac22.jpg);
+    background-size: cover;
+  }
+  .carousel-caption {
+    position: absolute;
+    text-align: left;
+    margin-left: 0;
+    left: 0;
+    width: 100%;
+    top: 0;
+    top: 55px;
+    padding: 50px;
+    border: 1px solid none;
+  }
+
+  .carousel-caption h5 {
+    font-size: 2.9rem;
+  }
+
+  .Item-4-box {
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .boxxx1 {
+    margin-top: 10px;
+  }
+
+  #nav-item-a::after {
+    content: "";
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: 2px;
+    transition: 0.3s;
+  }
+
+  #nav-item-a:hover::after {
+    width: 10%;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  /* ===  4 Section Div 1) Dental Veneers 2) Fixed Braces    */
+
+  .boxxx1 h1 {
+    font-size: 22px;
+  }
+
+  /*  About section  */
+  .item-about-section {
+    padding: 0px;
+    margin-bottom: 40px;
+  }
+
+  .item-about-img img {
+    width: 100%;
+  }
+
+  .about-title {
+    margin-left: 15px;
+  }
+
+  /* ======> Service section  */
+  .service-section {
+    padding: 10px;
+    margin-top: 100px;
+  }
+  .dhiraj1 {
+    border-right: none;
+    border-bottom: 1px solid #f7f7f7;
+  }
+
+  .about-title1 {
+    padding-top: 3px;
+  }
+
+  .about-title1 h1 {
+    font-size: 3rem;
+    line-height: 60px;
+    color: #000022;
+    margin-top: 20px;
+  }
+
+  .about-tag1 {
+    margin-top: 50px;
+  }
+
+  .sub-service-section {
+    padding: 15px;
+  }
+  .row-content {
+    margin-top: -180px;
+  }
+
+  /*  Contact form ===> */
+
+  .contact-img {
+    background-image: url("/Assets/Icon/home-5.jpg");
+    background-size: cover;
+    margin-left: 0px;
+    height: 400px;
+    border-radius: 8px;
+  }
+
+  .contact-form-content1 {
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .contact-form-content1 h1 {
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.7em;
+  }
+
+  #row-coo {
+    background-color: #000022;
+    margin-top: -60px;
+    padding: 30px;
+    width: 104.4%;
+    margin-left: -9px;
+  }
+
+  .contact-title {
+    padding: 0px;
+    margin-top: 40px;
+  }
+
+  .contact-title a {
+    position: relative;
+    top: -20px;
+  }
+
+  /* Gallery Section  */
+  .Gallery-section {
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  .Gallery-section h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+
+  .Heros-New-Blogs {
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #f7f7f7;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  /*  Menu pagess  */
+
+  /*   .rootcanaltreatment-img img {
+    width: 100%;
+  } */
+  .banner-section {
+    background-image: url(../Assets/images/treatment-banner.jpg);
+    background-size: cover;
+    height: 200px;
+    background-position: 40% 100%;
+    margin-bottom: 30px;
+  }
+
+  .rootcanlatreatments {
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid none;
+  }
+
+  @mixin RCTbtn {
+    background-color: #99bc1a;
+    width: 455px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #pills-home-tab11 {
+    @include RCTbtn;
+  }
+
+  #pills-profile-tab11 {
+    @include RCTbtn;
+  }
+
+  #pills-contact-tab11 {
+    @include RCTbtn;
+  }
+
+  /* After RCT btn  */
+
+  #RTC {
+    margin-top: 50px;
+  }
+
+  #pills-home-tab03 {
+    @include RCTbtn;
+  }
+
+  #pills-profile-tab03 {
+    @include RCTbtn;
+  }
+
+  /*  #root-img11 {
+    width: 100%;
+    margin-top: 10px;
+  } */
+
+  /* Page No : (2) ==> Advance Technology   */
+
+  .advancetechnology {
+    background-image: url(../Assets/images/advance-banner.jpg);
+    background-size: cover;
+    height: 250px;
+    background-position: 40% 100%;
+    margin-bottom: 50px;
+  }
+
+  .advance-accordation {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .advance-technology-paragrap {
+    padding: 7px;
+  }
+  .advance-technolgy-img img {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .Digital_Radiography-title,
+  .Digital_Documentation-title,
+  .Sterilization-title,
+  .Ultimate_Comforts-title {
+    margin-top: 20px;
+    padding: 7px;
+  }
+
+  .Digital_Radiography,
+  .Digital_Documentation,
+  .Sterilization,
+  .Ultimate_Comforts {
+    color: white;
+  }
+
+  .Advance-Technology-title {
+    color: white;
+  }
+
+  /*  PAGE NO : (3) ==> FAQS */
+
+  .Item-FAQS {
+    background-image: url(../Assets/images/cover_1.jpg);
+    background-size: cover;
+
+    background-position: 40% 100%;
+    margin-bottom: 50px;
+  }
+
+  .item-title-one,
+  .item-title-two,
+  .item-title-three,
+  .item-title-four,
+  .item-title-five,
+  .item-title-six,
+  .item-title-seven,
+  .item-title-eight,
+  .item-title-nine,
+  .item-title-ten,
+  .item-title-eleven,
+  .item-title-twevel {
+    color: #000022;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .accordion-button {
+    background-color: #a1bc29;
+  }
+
+  /*  Contact Form Pages  Desgins*/
+
+  .contact-form {
+    padding: 15px;
+    position: relative;
+  }
+
+  .address-img img {
+    position: relative;
+    top: -15px;
+  }
+
+  .call-imgs {
+    position: relative;
+    top: -15px;
+  }
+
+  .email-img {
+    position: relative;
+    top: -15px;
+  }
+
+  .contact-form::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 300px;
+    top: 83px;
+    background-repeat: no-repeat;
+    left: 40px;
+    background-image: none;
+  }
+
+  .sub-contact-from {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+
+  /* Professional _Info Pages */
+  #professional_section {
+    margin-top: 100px;
+  }
+
+  #facter {
+    position: relative;
+    top: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .digital-radiograpy2225254 img {
+    width: 100%;
+  }
+
+  /* === New section Add All-On-4  Implants  */
+
+  .All-on-4-implant {
+    padding: 15px;
+    background: linear-gradient(
+        rgba(000, 000, 000, 0.7),
+        rgba(000, 000, 000, 0.7)
+      ),
+      url(../img/Dental-Implant-options-Houston.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .all-on-4-title {
+    position: relative;
+    top: 10px;
+    padding: 15px;
+  }
+
+  .all-on-4-wrapper {
+    margin-top: 40px;
+    padding: 10px;
+  }
+  .all-on-4-box {
+    border-right: 1px none;
+    border-bottom: 0.5px solid #dad2d2;
+    margin-top: 15px;
+  }
+}

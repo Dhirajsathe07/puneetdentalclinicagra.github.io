@@ -1,0 +1,1561 @@
+/* ========== GOOGLE FONT ==========  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+#ads-caption {
+  width: 800px;
+}
+
+.adss-offers {
+  width: 70%;
+  height: 200px;
+  position: relative;
+  left: 10%;
+}
+
+.asdd-ooffers {
+  color: #000022;
+  font-size: 3rem;
+  line-height: 60px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+#puneet-tags {
+  background-color: green;
+  position: relative;
+}
+
+#get-ooffers {
+  margin-left: 0px;
+}
+/* Custome Fonts */
+$primary-font: "Poppins", sans-serif;
+
+/* Scss Background Color */
+$bg-primary: #b3040d;
+$color-secondary: #000022;
+
+.navbar-brand img {
+  width: 120px;
+}
+
+/* whatsapp icon == */
+
+.whatsapp_float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  top: 480px;
+  bottom: 40px;
+  right: 35px;
+  background-color: #000022;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.stikcy-youtube-btn {
+  position: fixed;
+  width: 100px;
+  height: 50px;
+  top: 300px;
+  bottom: 40px;
+  left: -20px;
+  background-color: #000022;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+
+  z-index: 100;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.stikcy-youtube-btn a {
+  text-decoration: none;
+}
+
+.ri-youtube-line {
+  color: white;
+  position: relative;
+  top: 2px;
+  text-decoration: none;
+}
+
+.ri-whatsapp-line {
+  text-decoration: none;
+  font-size: 30px;
+  margin-top: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.whatsapp_float:hover {
+  color: white;
+  transform: translateY(-15px);
+}
+
+@mixin Title {
+  font-size: 4rem;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-family: $primary-font;
+}
+
+@mixin subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #777;
+  line-height: 1.8;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+@mixin paragrap {
+  font-family: "Poppins", sans-serif;
+  color: #777;
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.to-top {
+  background: $bg-primary;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #fff;
+  z-index: 9999999;
+  text-decoration: none;
+  opacity: 0;
+}
+
+.to-top:hover {
+  color: white;
+}
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
+/* Navigatio Bar =====> */
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  padding: 20px;
+  background-color: $color-secondary;
+}
+
+#menu-bar {
+  transition: 0.5s all ease-in;
+}
+
+#nav-item-a {
+  @include subtitle;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  left: 25px;
+  text-transform: uppercase;
+}
+
+#nav-item-a:hover {
+  color: white;
+}
+
+#nav-item-a::after {
+  content: "";
+  position: absolute;
+  background-color: orange;
+  height: 3px;
+  width: 0%;
+  left: 0;
+  bottom: 2px;
+  transition: 0.3s;
+}
+
+#nav-item-a:hover::after {
+  width: 100%;
+}
+.navbar-toggler {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+
+/* ===== Sticky Bg ===== */
+
+.sticky {
+  position: fixed;
+  background-color: $color-secondary;
+  color: white;
+  transition: 0.2s all;
+  width: 100%;
+  z-index: 99;
+} /* End Slider  */
+
+/* ===== End ====== */
+
+/* ==== Corousel Slider css ==== */
+
+.puneet-dental-tag {
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: white;
+  background-color: rgba(000, 000, 000, 0.2);
+  padding: 7px 25px;
+  border-radius: 50px;
+  font-family: $primary-font;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+}
+.carousel-item {
+  position: relative;
+  height: 95vh;
+  float: left;
+  width: 100%;
+}
+.carousel-item img {
+  background-size: cover;
+
+  margin-right: -100%;
+
+  transition: transform 0.6s ease-in-out;
+}
+
+#slider_imgage {
+  background: linear-gradient(
+      rgba(000, 000, 000, 0.7),
+      rgba(000, 000, 000, 0.7)
+    ),
+    url(../Assets/Slider/Background_3.jpg);
+  background-size: cover;
+}
+
+#slider_imgage1 {
+  background: linear-gradient(
+      rgba(000, 000, 000, 0.8),
+      rgba(000, 000, 000, 0.8)
+    ),
+    url(../Assets/Slider/bac33.jpg);
+  background-size: cover;
+  background-position: 100%;
+}
+
+#slider_imgage2 {
+  background: linear-gradient(
+      rgba(000, 000, 000, 0.8),
+      rgba(000, 000, 000, 0.8)
+    ),
+    url(../Assets/Slider/bac22.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.corousel-slider {
+  border: 1px solid none;
+  height: 100vh;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid none;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  position: relative;
+  z-index: 999999999;
+}
+
+#arrays-border {
+  border: 3px solid #777;
+  height: 70px;
+  width: 70px;
+  margin-top: 260px;
+  margin-left: 40px;
+}
+
+#arrays-border1 {
+  border: 3px solid #777;
+  height: 70px;
+  width: 70px;
+  margin-top: 260px;
+  margin-right: 40px;
+}
+
+#arrays-border:hover {
+  background-color: $bg-primary;
+  border: none;
+}
+
+#arrays-border1:hover {
+  background-color: $bg-primary;
+  border: none;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 120px;
+  width: 700px;
+  text-align: left;
+  margin-left: 30px;
+
+  & h5 {
+    @include Title;
+    margin-top: 20px;
+    color: $primary-font;
+  }
+}
+
+.appointment-btn {
+  margin-top: 50px;
+
+  & a {
+    border: 1px solid none;
+    padding: 17px 50px;
+    background-color: $bg-primary;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: $primary-font;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+  & a:hover {
+    background-color: white;
+    color: #000022;
+    transform: translate(-6px, -6px);
+  }
+}
+
+/* =  Three Section Call, Time , appointment=== */
+
+$backgroundcolor: #000022;
+$secondaryColor: #99bc1a;
+$secondaryColor1: #ff8a8b;
+
+@mixin icon {
+  width: 50px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.Three-section-content {
+  margin-top: -32px;
+}
+
+.calls {
+  background-color: $backgroundcolor;
+  color: red;
+  padding: 60px;
+  position: relative;
+
+  & h1 {
+    @include subtitle;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  & p {
+    color: #777;
+    @include paragrap;
+  }
+  & h2 {
+    @include subtitle;
+    color: white;
+    font-size: 23px;
+  }
+}
+
+/* Box No: 02  */
+
+.new-technology {
+  background-color: $secondaryColor;
+  padding: 60px;
+
+  & h1 {
+    @include subtitle;
+    color: white;
+  }
+
+  & p {
+    color: white;
+    @include paragrap;
+  }
+}
+
+.calls-icon {
+  @include icon;
+}
+
+/* Box No: 03  */
+
+.Time-table {
+  background-color: $backgroundcolor;
+  padding: 60px;
+
+  & h1 {
+    @include subtitle;
+    color: white;
+  }
+}
+
+.Time-table ul {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.Time-table ul li {
+  padding: 5px;
+  color: white;
+  font-family: $primary-font;
+  letter-spacing: 1px;
+}
+
+/*  4 Section Div 1) Dental Veneers 2) Fixed Braces  */
+
+.Item-4-box {
+  padding: 100px;
+  background: none;
+}
+
+.calls-icon1 {
+  @include icon;
+  width: 60px;
+  margin-top: 20px;
+}
+
+.boxxx1 h1 {
+  @include subtitle;
+  color: #1e1e1e;
+  font-family: $primary-font;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-weight: 800;
+  padding-top: 3px;
+  text-transform: capitalize;
+}
+
+.boxxx1 p {
+  @include subtitle;
+  color: rgb(32, 30, 30);
+  opacity: 0.6;
+  font-weight: 400;
+  font-size: 15px;
+  padding-top: 3px;
+  line-height: 25px;
+}
+
+.boxxx1:hover {
+  border: 5px solid $backgroundcolor;
+  cursor: pointer;
+  color: white;
+}
+
+.call-img1 {
+  width: 100px;
+}
+
+.boxxx1 {
+  border: 5px solid #f7f7f7;
+  padding: 35px;
+}
+
+/*  About section  */
+
+.item-about-section {
+  padding: 100px;
+}
+
+.about-title {
+  margin-top: 50px;
+
+  & h1 {
+    @include Title;
+    color: #000022;
+    font-size: 3rem;
+    line-height: 60px;
+    margin-top: 60px;
+  }
+
+  & p {
+    @include paragrap;
+    margin-top: 30px;
+    line-height: 30px;
+  }
+}
+
+.about-tags {
+  @include subtitle;
+  font-size: 14px;
+  position: relative;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000022;
+}
+#item-about-photo img {
+  width: 540px;
+  margin-left: -10px;
+  position: relative;
+  top: 50px;
+  left: -20px;
+}
+
+.about-tags::after {
+  content: "";
+  background-color: #000022;
+  width: 80px;
+  height: 7px;
+  left: 0;
+  top: 35px;
+  position: absolute;
+}
+
+.about-tags::before {
+  content: "";
+  width: 40px;
+  height: 7px;
+  background-color: #b3040d;
+  position: absolute;
+  left: 0;
+  top: 50px;
+}
+
+.our-mission {
+  padding: 15px;
+  border: 1.5px solid rgba(0, 0, 34, 0.1);
+  margin-top: 25px;
+
+  & h2 {
+    margin-top: 10px;
+    @include subtitle;
+    font-size: 20px;
+    color: #000022;
+    letter-spacing: 1px;
+  }
+
+  & h3 {
+    margin-top: 10px;
+    @include subtitle;
+    font-size: 20px;
+    color: #000022;
+    letter-spacing: 1px;
+  }
+
+  & p {
+    color: red;
+    @include paragrap;
+  }
+}
+
+/* service section */
+
+.service-section {
+  background-color: #f5f5f5;
+  margin-top: 50px;
+  padding: 100px;
+}
+
+.about-title1 h1 {
+  @include Title;
+  font-size: 3rem;
+  color: #000022;
+  margin-top: 25px;
+}
+.nick {
+  @include paragrap;
+  margin-top: 19px;
+}
+
+#dhir1 {
+  background-image: url(../img/overview.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+
+.about-tag1 {
+  background-color: white;
+  width: 190px;
+  @include subtitle;
+  padding: 7px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 20px rgba(166, 173, 201, 0.2);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #000022;
+  text-transform: uppercase;
+}
+
+/*  sub-section-service */
+
+.sub-service-section {
+  padding: 100px;
+}
+
+.row-content {
+  background-color: white;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: -300px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 20px rgba(166, 173, 201, 0.2);
+
+  position: relative;
+}
+
+.dhiraj1 {
+  border-right: 2px solid rgb(252, 242, 242);
+}
+
+.dhiraj1 {
+  margin-top: 30px;
+  padding: 10px;
+
+  & p {
+    @include subtitle;
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+.dhiraj1 img {
+  width: 70px;
+}
+
+.dhiraj1 h1 {
+  @include subtitle;
+  line-height: 30px;
+  font-size: 1.3rem;
+  margin-top: 15px;
+  color: #000022;
+  text-transform: capitalize;
+}
+
+/*  contact form ===> */
+
+/* ======> support box */
+
+.support-box {
+  padding: 100px;
+  background: linear-gradient(
+      rgba(000, 000, 000, 0.8),
+      rgba(000, 000, 000, 0.4)
+    ),
+    url(../Assets/Slider/slider1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-support-box {
+  padding: 30px;
+
+  & p {
+    @include subtitle;
+    color: #000022;
+    font-weight: 500;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    margin-top: 15px;
+  }
+
+  & h1 {
+    @include Title;
+    font-size: 4.5rem;
+    width: 800px;
+  }
+}
+
+.contents1 {
+  background-color: white;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+  width: 95%;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.contact-img {
+  background-image: url("/Assets/Icon/home-5.jpg");
+  background-size: cover;
+  margin-left: -12px;
+}
+
+.free-tag1 {
+  padding: 10px 20px;
+  background-color: rgba(19, 61, 115, 0.1);
+  border-radius: 20px;
+  color: #4606ac;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contact-form-content1 {
+  padding: 80px;
+}
+.contact-form-content1 h1 {
+  font-weight: 700;
+  margin-top: 30px;
+  color: #000022;
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-family: $primary-font;
+}
+
+.contact-btn1 {
+  margin-top: 50px;
+}
+
+.contact-btn1 a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+}
+
+/* subcontact form */
+
+.contact-section-btn {
+  padding: 10px;
+}
+
+#row-coo {
+  background: linear-gradient(
+      rgba(000, 000, 000, 0.6),
+      rgba(000, 000, 000, 0.6)
+    ),
+    url(../img/overview-bg.jpg);
+  background-size: cover;
+  background-position: 40%;
+  margin-top: -60px;
+  padding: 30px;
+  width: 99.1%;
+  margin-left: 0.5px;
+}
+
+.contact-title {
+  padding: 70px;
+  margin-top: 40px;
+
+  & h1 {
+    @include Title;
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+  }
+
+  & p {
+    @include paragrap;
+    color: white;
+  }
+}
+
+.contact-title a {
+  border: 1px solid none;
+  padding: 20px 45px;
+  background-color: #b3040d;
+  position: relative;
+  top: 30px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: $primary-font;
+  text-decoration: none;
+}
+
+/* Gallery- section  */
+
+.Gallery-section {
+  padding: 100px;
+
+  & h1 {
+    @include Title;
+    font-size: 3rem;
+    color: #000022;
+  }
+}
+
+.wrapper {
+  margin: 28px auto;
+  max-width: 1100px;
+}
+.wrapper nav {
+  display: flex;
+  justify-content: center;
+}
+.wrapper .items {
+  display: flex;
+  max-width: 580px;
+  width: 100%;
+  justify-content: space-between;
+}
+.items span {
+  padding: 7px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  left: 0%;
+  cursor: pointer;
+  color: #007bff;
+  /*   border-radius: 50px; */
+  border: 2px solid #007bff;
+  transition: all 0.3s ease;
+}
+.items span.active,
+.items span:hover {
+  color: #fff;
+  background: #007bff;
+}
+
+.gallery {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.gallery .image {
+  width: calc(100% / 4);
+  padding: 7px;
+}
+.gallery .image span {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.gallery .image img {
+  width: 100%;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+}
+.gallery .image:hover img {
+  transform: scale(1.1);
+}
+.gallery .image.hide {
+  display: none;
+}
+.gallery .image.show {
+  animation: animate 0.4s ease;
+}
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.preview-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: #fff;
+  max-width: 700px;
+  width: 100%;
+  z-index: 5;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 3px;
+  padding: 0 5px 5px 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.preview-box.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition: all 0.3s ease;
+}
+.preview-box .details {
+  padding: 13px 15px 13px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.details .title {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+}
+.details .title p {
+  font-weight: 500;
+  margin-left: 5px;
+}
+.details .icon {
+  color: #007bff;
+  font-style: 22px;
+  cursor: pointer;
+}
+.preview-box .image-box {
+  width: 100%;
+  display: flex;
+}
+.image-box img {
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+.shadow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: none;
+  background: rgba(0, 0, 0, 0.4);
+}
+.shadow.show {
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .gallery .image {
+    width: calc(100% / 3);
+  }
+}
+@media (max-width: 800px) {
+  .gallery .image {
+    width: calc(100% / 2);
+  }
+}
+@media (max-width: 700px) {
+  .wrapper nav .items {
+    max-width: 600px;
+  }
+  nav .items span {
+    padding: 7px 15px;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper {
+    margin: 30px auto;
+  }
+  .wrapper nav .items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav .items span {
+    margin: 5px;
+  }
+  .gallery .image {
+    width: 100%;
+  }
+}
+
+/*  New Blogs ======> */
+
+.Heros-New-Blogs {
+  padding: 100px;
+  margin-top: -30px;
+  background-color: #f7f7f7;
+}
+
+#card-boo {
+  margin-top: 35px;
+  width: 100%;
+}
+.Blogs-title {
+  @include Title;
+  font-size: 3rem;
+  color: #000022;
+  margin-top: 20px;
+}
+
+.card-title {
+  @include subtitle;
+  color: #000022;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.card-text {
+  @include subtitle;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/*  Footer section ====> */
+
+footer .footer-top {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer .navbar-brand {
+  color: #fff;
+}
+
+footer p {
+  color: #adb3b9;
+}
+
+footer .social-icons a {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+footer {
+  background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)),
+    url(../Assets/images/360_F_260730234_3IqGWTbg0diJSl29AEeryxmqzEGHbaIU.jpg),
+    #082032;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.social-icons a {
+  text-decoration: none;
+
+  & i {
+    color: white;
+    font-size: 30px;
+  }
+}
+
+/* Start Coding Pagess ===>  */
+
+/* Page No : (1) ==> Root Canal Treatement   */
+
+.banner-section {
+  background-image: url(../Assets/images/treatment-banner.jpg);
+  background-size: cover;
+  height: 350px;
+  background-position: 40% 100%;
+}
+
+.rootcanlatreatments {
+  padding: 80px;
+  margin: 0 auto;
+  border: 1px solid none;
+}
+.Conventional_Endodontics {
+  @include paragrap;
+}
+
+.rootcanaltreatment-img img {
+  width: 100%;
+  border: 1px solid #f7f7f7;
+}
+
+/* 02 Re-Treatment_Endodontics */
+
+.Re-Treatment_Endodontics {
+  @include paragrap;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#root-img11 {
+  width: 100%;
+}
+
+/* 03 Surgical_Endodontics */
+
+.Surgical_Endodontics {
+  @include paragrap;
+  margin-top: 20px;
+}
+
+#root-img11 {
+  margin-top: 15px;
+}
+
+.oooo {
+  margin-top: 20px;
+  @include paragrap;
+}
+
+.after-atc {
+  margin-top: 20px;
+  @include paragrap;
+}
+
+/*  ====> Advance Technology Pages No: 2 ===> */
+
+.advancetechnology {
+  background-image: url(../Assets/images/advance-banner.jpg);
+  background-size: cover;
+  height: 350px;
+  background-position: 40% 100%;
+  margin-bottom: 50px;
+}
+
+.advance-accordation {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.accordion-btn {
+  background-color: #f7f7f7;
+  border: 2px solid #f7f7f7;
+}
+
+.Advance-Technology-title {
+  @include Title;
+  color: #777;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.advance-technology-paragrap {
+  @include paragrap;
+  padding: 20px;
+}
+
+.advance-technolgy-img img {
+  width: 100%;
+  margin-left: 0;
+}
+
+.Advantages-of-Microscopic-Endodontics {
+  margin-top: 50px;
+
+  & h3 {
+    @include Title;
+    color: #000022;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: $primary-font;
+  }
+}
+
+.Advantages-of-Microscopic-Endodontics ul li {
+  margin-top: 20px;
+  @include paragrap;
+  list-style-type: decimal;
+}
+
+.Digital_Radiography,
+.Digital_Documentation,
+.Sterilization,
+.Ultimate_Comforts {
+  @include Title;
+  color: #000022;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #777;
+  font-family: $primary-font;
+}
+
+.Digital_Radiography-title,
+.Digital_Documentation-title,
+.Sterilization-title,
+.Ultimate_Comforts-title {
+  @include paragrap;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.digital-documentation-img img {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.digital-radiograpy img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*  PAGE NO : (3) ==> FAQS */
+
+.Item-FAQS {
+  background-image: url(../Assets/images/cover_1.jpg);
+  background-size: cover;
+  height: 350px;
+  background-position: 40% 100%;
+  margin-bottom: 50px;
+}
+
+.item-title-one,
+.item-title-two,
+.item-title-three,
+.item-title-four,
+.item-title-five,
+.item-title-six,
+.item-title-seven,
+.item-title-eight,
+.item-title-nine,
+.item-title-ten,
+.item-title-eleven,
+.item-title-twevel {
+  @include Title;
+  color: #000022;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: $primary-font;
+  color: #777;
+}
+
+.accordion-faqs {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.accordion-button {
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+}
+
+.faqs-1 {
+  @include paragrap;
+}
+
+/*  ====>  contact-form pages  */
+
+.contact-form {
+  padding: 80px;
+  position: relative;
+}
+
+.contact-form::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 300px;
+  top: 83px;
+  background-repeat: no-repeat;
+  left: 40px;
+  background-image: url(../Assets/Icon/home6-location-dots.png);
+}
+
+.contact-details {
+  background-color: #000022;
+  padding: 30px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.contact-details-form {
+  margin-top: 20px;
+  margin-left: 20px;
+  & h2 {
+    @include Title;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: serif;
+    margin-top: 15px;
+  }
+
+  & p {
+    @include paragrap;
+    margin-top: 15px;
+  }
+}
+
+.contact-form-fields {
+  background-color: #f7f7f7;
+}
+
+.contact-address-email-phone {
+  margin-top: 30px;
+}
+
+/* .address1 {
+  border: 1px solid red;
+} */
+
+.conat-img img {
+  width: 35px;
+}
+
+.contact-title22 h3 {
+  @include subtitle;
+  color: white;
+
+  font-size: 1.1rem;
+}
+
+.bolts-tag {
+  @include subtitle;
+  color: orange;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.contact-addres-para {
+  @include paragrap;
+}
+
+.sub-contact-from {
+  padding: 50px;
+}
+
+.sub-contact-from span {
+  padding: 10px 20px;
+  background-color: rgba(19, 61, 115, 0.1);
+  border-radius: 20px;
+  color: #4606ac;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 50px;
+  margin-top: 50px;
+}
+
+.sub-contact-from h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: #000022;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+
+.sub-contact-from p {
+  font-size: 18px;
+  color: #657e91;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.form-label {
+  font-size: 15px;
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.form-control {
+  padding: 15px;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+#submit-btn {
+  background-color: #133d73;
+  padding: 20px 50px;
+  border-radius: 30px;
+  margin-top: 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: 13px;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.address-img img {
+  position: relative;
+  top: 35px;
+}
+
+.call-imgs {
+  position: relative;
+  top: 10px;
+}
+
+.email-img {
+  position: relative;
+  top: 8px;
+}
+
+/* Professional _Info Pages */
+#professiona_section {
+  position: relative;
+  top: 30px;
+}
+
+.professional_info {
+  width: 530px;
+}
+
+#professional_abouts img {
+  height: 450px;
+}
+
+.professional_para {
+  width: 450px;
+  line-height: 60px;
+}
+
+.item-about-img img {
+  height: 600px;
+  width: 480px;
+}
+
+/* rootcanal */
+
+.rootcanaltreatments {
+  border: 1px solid none;
+}
+
+#facter {
+  position: relative;
+  top: -15px;
+}
+
+.roottreamemts {
+  margin-top: 50px;
+}
+
+.footer-para {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+}
+
+.ddss {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* ===== PreLoader ==== */
+
+/* Preloder */
+
+#preloader {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  z-index: 999999999;
+}
+
+/* .disappear {
+  animation: vanish 1s forwards;
+} */
+
+@keyframes vanish {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#preloader img {
+  width: 180px;
+  height: 180px;
+}
+
+/* === New section Add All-On-4  Implants  */
+
+.All-on-4-implant {
+  padding: 110px;
+
+  background: linear-gradient(
+      rgba(000, 000, 000, 0.7),
+      rgba(000, 000, 000, 0.7)
+    ),
+    url(../img/Dental-Implant-options-Houston.jpg);
+  background-size: cover;
+}
+
+.all-on-4-title {
+  position: relative;
+  top: -20px;
+}
+
+.all-on-4-title h1 {
+  @include Title;
+  color: #99bc1a;
+
+  font-size: 2.2rem;
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
+}
+
+.all-on-4-para {
+  @include paragrap;
+  font-size: 1rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.all-on-4-wrapper {
+  margin-top: 50px;
+}
+
+.all-on-4-box {
+  border-right: 1px solid none;
+}
+
+.all-on-4-box h1 {
+  @include Title;
+
+  font-size: 1.4em;
+  color: white;
+  letter-spacing: 1.2px;
+  word-spacing: 1px;
+  line-height: 32px;
+}
+
+.all-on-4-box p {
+  @include paragrap;
+  font-size: 1rem;
+  color: rgb(190, 175, 175);
+  text-transform: capitalize;
+}
+
+/* Blogs Pages ====> */
+.brand_icons {
+  width: 100px;
+}
